@@ -11,3 +11,16 @@ input[type=text] {
   width: 97%;
   
 }
+.fundo{
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0 0;
+}
+.title{
+  text-align: center;
+  color: aqua;
+  padding: 2rem 0 15rem  0;
+
+}

@@ -57,17 +57,13 @@ function Calculadora() {
   }
 
   return (
-    <Jumbotron style={{
-      background: 'transparent !important',
-      backgroundColor: 'black',
-      margin: '0 auto',
-      heigth: '100%',
-    }} >
+    <div className='fundo'>
+    <h2 className='title'> Calculadora</h2>
     <Jumbotron style={{
       background: 'transparent !important',
       backgroundColor: '#007bff',
       padding: '10px',
-      margin: '15% auto',
+      margin: '0 auto',
       width: '400px'
     }} >
       <Container>
@@ -157,7 +153,7 @@ function Calculadora() {
         </Row>
       </Container>
     </Jumbotron>
-    </Jumbotron>
+    </div>
   );
 }
 
